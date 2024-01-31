@@ -1,0 +1,56 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.container {
+    max-width: 600px;
+}
+
+.card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    border-radius: 15px 15px 0 0;
+}
+
+.btn {
+    border-radius: 5px;
+}
+
+#taskInput {
+    border-radius: 5px 0 0 5px;
+}
+
+.list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 8px;
+}
+
+.list-group-item:last-child {
+    margin-bottom: 0;
+}
+
+.list-group-item .btn {
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+/* Responsive Styles */
+@media (max-width: 576px) {
+    .container {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    .card-body {
+        padding: 20px;
+    }
+}
